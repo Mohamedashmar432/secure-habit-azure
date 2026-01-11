@@ -5,7 +5,7 @@ import App from './App';
 import './index.css';
 
 // Configure axios defaults
-axios.defaults.baseURL = (import.meta as any).env.VITE_API_URL || 'https://secure-habit-backend.onrender.com';
+axios.defaults.baseURL = (import.meta as any).env.VITE_API_URL || 'secure-habit-api-gfcmcqetcpcagde2.centralindia-01.azurewebsites.net';
 axios.defaults.timeout = 10000;
 
 // Add request interceptor for debugging
