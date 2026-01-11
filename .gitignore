@@ -1,0 +1,88 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/app.env
+app.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test files and scripts (exclude from production)
+test_*.js
+validate_*.js
+check_*.js
+create_*.js
+migrate_*.js
+monitor_*.js
+get_*.js
+*_test.js
+*_validation.js
+*_comprehensive.js
+systemscan.ps1
+validate_*.ps1
+test_*.ps1
+fix-line-endings.bat
+curl-format.txt
+
+# Documentation files (except README.md)
+*.md
+!README.md
+
+# Demo and development scripts
+*demo*.js
+*ashmar*.js
+
+# Temporary files
+temp/
+tmp/
+.tmp/
+
+# Build artifacts
+*.tgz
+*.tar.gz
+
+# Cache directories
+.cache/
+.parcel-cache/
+.nyc_output/
+.eslintcache
+
+# Optional directories
+jspm_packages/
+.npm/
+.yarn-integrity
