@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/api': {
-        target: 'https://secure-habit-backend.onrender.com',
+        target: 'secure-habit-api-gfcmcqetcpcagde2.centralindia-01.azurewebsites.net',
         changeOrigin: true,
       },
     },
